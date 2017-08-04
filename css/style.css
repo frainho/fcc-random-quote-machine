@@ -1,93 +1,78 @@
 body {
-    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/dark-triangles.png");
-    background-color: #cccccc;
-    font-family: 'Signika', sans-serif;
-    color:white;
-    text-align:center;
+	background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/dark-triangles.png");
+	background-color: #cccccc;
+	font-family: 'Signika', sans-serif;
+	color: white;
+	text-align: center;
 }
-
 .mainHeader {
-  margin-top:10%;
-  margin-bottom: 2%;
+	margin-top: 10%;
+	margin-bottom: 2%;
 }
-
 button {
-  padding:0.65%;
-  border:0;
-  color:white;
-  margin-top:2%;
+	padding: 0.65%;
+	border: 0;
+	color: white;
+	margin-top: 2%;
 }
-
 #btnTweet {
-  background-color: #1DA1F2;
-  border-radius: 5px;
+	background-color: #1DA1F2;
+	border-radius: 5px;
 }
-
 #btnTweet:hover {
-  background-color: #4ab3f4;
+	background-color: #4ab3f4;
 }
-
 #btnTweet:active {
-  background-color: #0084b4;
+	background-color: #0084b4;
 }
-
 #btnHit {
-  background-color: #2DCC70;
-  border-radius: 5px;
+	background-color: #2DCC70;
+	border-radius: 5px;
 }
-
 #btnHit:hover {
-  background-color: #35E580;
+	background-color: #35E580;
 }
-
 #btnHit:active {
-  background-color: #2AB564;
+	background-color: #2AB564;
 }
-
 #quoteDiv {
-  background-color:#57606d;
-  margin: 0 auto;
-  height:100%;
-  width:50%;
-  border-radius:25px;
-  margin-top:25px;
-  padding-left:10px;
-  padding-right:10px;
+	background-color: #57606d;
+	margin: 0 auto;
+	height: 100%;
+	width: 50%;
+	border-radius: 25px;
+	margin-top: 25px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
-
 i {
-  color:white;
+	color: white;
 }
-
 i:hover {
-  color:grey;
+	color: grey;
 }
-
 hr {
-  margin-top: 100px;
-  width:25%;
+	margin-top: 100px;
+	width: 25%;
 }
 
 /* Media Queries */
 
 @media screen and (max-width: 700px) {
-  
-  #quoteDiv {
-    width:70%;
-  }
-  
-  hr {
-  margin-top: 100px;
-  width:50%;
+	#quoteDiv {
+		width: 70%;
+	}
+	hr {
+		margin-top: 100px;
+		width: 50%;
+	}
 }
-}
-
 @media screen and (max-width: 480px) {
-  #quoteDiv {
-    width:90%;
-  }
-  hr {
-  margin-top: 100px;
-  width:75%;
-}
+	#quoteDiv {
+		width: 90%;
+	}
+	hr {
+		margin-top: 100px;
+		width: 75%;
+	}
 }
